@@ -1,0 +1,112 @@
+.rule-content {
+    margin: 10px 15px;
+}
+.search-top {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-top img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 9px;
+}
+.search-left {
+    background: #fff;
+    height: 44px;
+    line-height: 44px;
+    width: 80%;
+}
+.search-top input {
+    border: 0;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    font-size:14px;
+}
+.search-top button {
+    height: 44px;
+    line-height: 44px;
+    background: blue;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    padding: 0 16px;
+}
+.title {
+    height: 52px;
+    line-height: 52px;
+  }
+.title h2{
+    font-size:18px;
+    font-family:PingFangSC-Medium;
+    font-weight: blod;
+    color:rgba(20,21,59,1);
+}
+.award-list {
+   
+}
+.award-list li {
+    height: 103px;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.award-list-left {
+    margin-left: 15px;
+}
+.award-list-left span{
+    color: #FE4949;
+}
+.award-list-left p {
+    font-weight:400;
+    color:rgba(20,21,59,1);
+    margin-bottom: 5px;
+}
+.award-list-right {
+    text-align: center;
+    margin-right: 15px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.award-list-right p:nth-child(1) {
+    height: 23px;
+    line-height:23px;
+    color: #fff;
+    background: #FE4949;
+    padding: 0 10px 
+}
+.award-list-right p:nth-child(2) {
+    height: 47px;
+    line-height:47px;
+    color: #FE4949;
+    background: #e5e5e5;
+    padding: 0 10px 
+}
+.greenBck {
+    background: #35BE8A !important;
+}
+.green {
+    color: #35BE8A !important;
+}
+.loadingMore {
+    width: 100%;
+}
+.loadingMore button{
+    height: 44px;
+    width: 100%;
+    line-height: 44px;
+    border: 0;
+    background: blue;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+}

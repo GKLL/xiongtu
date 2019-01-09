@@ -1,24 +1,95 @@
-.header {
-  height: .8rem;
-  background: #f00;
+.title {
+  height: 52px;
+  line-height: 52px;
 }
-.btn {
-  font-size: 12px !important;
-  width: 100%;
-  height: 1.066667rem;
-  line-height: 1.066667rem;
-  background: #f00;
-  color:#fff;
-  text-align: center;
-  margin-top: 30px;
+.title h2{
+  font-size:18px;
+  font-family:PingFangSC-Medium;
+  font-weight: blod;
+  color:rgba(20,21,59,1);
 }
-.btn button {
-  font-size: 14px !important;
-  padding: 0 18px 0 0!important;
-  background: #f00 !important;
-  border: 0;
+.banner-img {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
 }
-.ladda-button .ladda-spinner {
-  width: .32rem !important;
-  height: .32rem !important;
+.banner-img div {
+  width: 48%;
+}
+.banner-img img {
+  display: inline-block;
+  max-width: 100%;
+}
+.search {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight:400;
+  color:rgba(20,21,59,1);
+  margin: 0 15px 10px;
+  background: #fff;
+  height: 54px;
+  border-radius: 2px;
+}
+.search  .imgserch {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.search .imgright {
+  display: inline-block;
+  vertical-align: middle;
+  width: 11px;
+  height: 14px;
+  margin-right: 15px;
+}
+.search p {
+  margin-left: 15px;
+}
+
+.xiongtu-info {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 15px;
+  
+}
+.xiongtu-info-item {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 179px;
+  background: #fff;
+  width: 48%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.xiongtu-info-item img {
+  display: inline-block;
+  width: 29px;
+  height: 100%;
+  margin: 15px 0 0 15px;
+}
+.xiongtu-info-item p {
+  color:rgba(20,21,59,1);
+  font-size: 14px;
+  font-weight: blod;
+  margin-left: 15px;
+}
+.xiongtu-info-item p:nth-last-child(1) {
+  color:rgba(153,153,153,1);
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  
 }

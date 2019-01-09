@@ -6,48 +6,103 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>雄图</title>
+    <title>首页</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,user-scalable=no">
     <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" href="css/ladda.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="header">
+    <div class="main">
+      <div class="title mr-15">
+        <h2>雄图品牌</h2>
+      </div>
+      <div class="banner-img">
+        <div>
+          <img src="./img/banner.png" alt=""/>
+        </div>
+        <div>
+          <img src="./img/banner_1.png" alt=""/>
+        </div>
+      </div>
+      <div class="title mr-15">
+        <h2>雄图搜索</h2>
+      </div>
+      <div class="search">
+        <div>
+          <img src="./img/ziyuan@2x.png" class="imgserch"/>黑户搜索
+        </div>
+        <div><img src="./img/Combined Shape.png" class="imgright"/></div>
+      </div>
+      <div class="search">
+        <div>
+          <img src="./img/xiaoxi-2@2x.png" class="imgserch"/>百问百答
+        </div>
+        <div><img src="./img/Combined Shape.png" class="imgright"/></div>
+      </div>
+      <div class="title mr-15">
+        <h2>关于雄图</h2>
+      </div>
+      <div class="xiongtu-info">
+        <div class="xiongtu-info-item">
+          <div><img src="./img/shijian@2x.png" alt=""/></div>
+          <div>
+            <p>雄图事件</p>
+            <p>简短介绍简短介绍</p>
+          </div>
+        </div>
+        <div class="xiongtu-info-item">
+          <div><img src="./img/zhanchang@2x.png" alt=""/></div>
+          <div>
+            <p>雄图战场</p>
+            <p>简短介绍简短介绍</p>
+          </div>
+        </div>
+        <div class="xiongtu-info-item">
+          <div><img src="./img/Hoor@2x.png" alt=""/></div>
+          <div>
+            <p>五德荣誉</p>
+            <p>简短介绍简短介绍</p>
+          </div>
+        </div>
+        <div class="xiongtu-info-item">
+          <div><img src="./img/aixin@2x.png" alt=""/></div>
+          <div>
+            <p>爱心基金</p>
+            <p>简短介绍简短介绍</p>
+          </div>
+        </div>
+        <div class="xiongtu-info-item">
+            <div><img src="./img/fendou@2x.png" alt=""/></div>
+            <div>
+              <p>天道酬勤</p>
+              <p>简短介绍简短介绍</p>
+            </div>
+          </div>
+          <div class="xiongtu-info-item">
+              <div><img src="./img/xiaohongqi01@2x.png" alt=""/></div>
+              <div>
+                <p>厚德载物</p>
+                <p>简短介绍简短介绍</p>
+              </div>
+            </div>
+      </div>
+      <div class="search">
+        <div>
+          <p>战场设置<p>
+        </div>
+        <div><img src="./img/Combined Shape.png" class="imgright"/></div>
+      </div>
     </div>
-    <section class="btn">
-			<button class="ladda-button" data-color="blue" data-style="expand-right">加载更多</button>
-		</section>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="js/spin.min.js"></script>
-	  <script src="js/ladda.min.js"></script>
     <script type="text/javascript">
       $(function () { 
-        // $('.header').css("backgroundColor","#f0f");
-        Ladda.bind( '.btn button', { timeout: 2000 } );
 
-        // Bind progress buttons and simulate loading progress
-        Ladda.bind( '.progress-demo button', {
-          callback: function( instance ) {
-            var progress = 0;
-            var interval = setInterval( function() {
-              progress = Math.min( progress + Math.random() * 0.1, 1 );
-              instance.setProgress( progress );
-
-              if( progress === 1 ) {
-                instance.stop();
-                clearInterval( interval );
-              }
-            }, 200 );
-          }
-        } );        
       });
 
     </script>
