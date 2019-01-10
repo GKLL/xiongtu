@@ -1,3 +1,6 @@
+.battle-main {
+  margin: 0 .4rem;
+}
 .title {
   height: 52px;
   line-height: 52px;
@@ -7,9 +10,6 @@
   font-family:PingFangSC-Medium;
   font-weight: blod;
   color:rgba(20,21,59,1);
-}
-.honor-main {
-  margin: 0 .4rem;
 }
 .honor-list {
   display: -webkit-flex;
@@ -52,7 +52,6 @@
   margin-right: .666667rem;
   margin-top: .2rem;
 }
-
 .search {
   display: -webkit-flex;
   display: flex;
@@ -88,3 +87,45 @@
   margin-left: .213333rem;
 }
 
+.battle-list {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.battle-list > div {
+  width: 4.426667rem;
+  height: 2.373333rem;
+  margin-bottom: .266667rem;
+  border-radius: .053333rem;
+  background: #fff;
+}
+/* .honor-list > div:nth-child(1) {
+  background: #ff7676;
+}
+.honor-list > div:nth-child(2) {
+  background: #ffb676;
+}
+.honor-list > div:nth-child(3) {
+  background: #b076ff;
+}
+.honor-list > div:nth-child(4) {
+  background: #76b2ff;
+} */
+.battle-list-img img {
+  display: inline-block;
+  height: 100%;
+  width: .666667rem;
+  margin: .4rem 0 0 .36rem;
+}
+.battle-list-text {
+  font-size:15px;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:#14153B;
+  text-align: right;
+  margin-right: .666667rem;
+  margin-top: .2rem;
+}
