@@ -1,0 +1,49 @@
+.primary {
+  background : #495FFE;
+}
+
+.btn {
+  margin: .4rem;
+}
+.btn button {
+  width: 100%;
+  border: 0;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+}
+.danger {
+  background : #f5222d;
+}
+.default {
+  background : #fff;
+  color: #000 !important;
+}
+.nuanse {
+  background : #feb711;
+}
+.common h2 {
+  margin: .4rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+.icons {
+  margin: .4rem;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.icons div{
+  font-size: 20px;
+  width: 1.066667rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  text-align: center;
+}
+.icons i {
+  font-size: 20px;
+}
